@@ -7,12 +7,12 @@ plugins {
 
 android {
     namespace = "com.edu.pmdm_mayo"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.edu.pmdm_mayo"
         minSdk = 26
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -54,7 +54,8 @@ dependencies {
     implementation(libs.koin.android)
     implementation(libs.koin.annotations)
     implementation(libs.androidx.room.runtime)
-    implementation(libs.androidx.room.coroutines)
+    implementation(libs.androidx.navigation.fragment)
+    implementation(libs.androidx.navigation.ui.ktx)
     ksp(libs.androidx.room.compiler)
 
     testImplementation(libs.junit)
