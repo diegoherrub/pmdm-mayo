@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/clientsFragment">
+
+    <fragment
+        android:id="@+id/clientsFragment"
+        android:name="com.edu.pmdm_mayo.features.clients.presentation.ClientsFragment"
+        android:label="Clients">
+
+<!--        <action-->
+<!--            android:id="@+id/action_clientsFragment_to_clientFragmentAdd"-->
+<!--            app:destination="@id/clientsFragmentAdd" />-->
+    </fragment>
+
+<!--    <fragment-->
+<!--        android:id="@+id/clientsFragmentAdd"-->
+<!--        android:name="com.edu.pmdm_mayo.features.clients.presentation.ClientAddFragment"-->
+<!--        android:label="Add Client" />-->
+</navigation>
