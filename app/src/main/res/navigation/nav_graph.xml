@@ -9,13 +9,13 @@
         android:name="com.edu.pmdm_mayo.features.clients.presentation.ClientsFragment"
         android:label="Clients">
 
-<!--        <action-->
-<!--            android:id="@+id/action_clientsFragment_to_clientFragmentAdd"-->
-<!--            app:destination="@id/clientsFragmentAdd" />-->
+        <action
+            android:id="@+id/action_clientsFragment_to_clientFragmentAdd"
+            app:destination="@id/clientsFragmentAdd" />
     </fragment>
 
-<!--    <fragment-->
-<!--        android:id="@+id/clientsFragmentAdd"-->
-<!--        android:name="com.edu.pmdm_mayo.features.clients.presentation.ClientAddFragment"-->
-<!--        android:label="Add Client" />-->
+    <fragment
+        android:id="@+id/clientsFragmentAdd"
+        android:name="com.edu.pmdm_mayo.features.clients.presentation.ClientsFragmentAdd"
+        android:label="Add Client" />
 </navigation>
